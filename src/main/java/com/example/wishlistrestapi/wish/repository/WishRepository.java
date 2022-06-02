@@ -1,6 +1,6 @@
-package com.example.wishlistrestapi.repository;
+package com.example.wishlistrestapi.wish.repository;
 
-import com.example.wishlistrestapi.model.Wish;
+import com.example.wishlistrestapi.wish.model.Wish;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

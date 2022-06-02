@@ -1,8 +1,8 @@
-package com.example.wishlistrestapi.controller;
+package com.example.wishlistrestapi.wish.controller;
 
-import com.example.wishlistrestapi.model.AddWishRequest;
-import com.example.wishlistrestapi.model.Wish;
-import com.example.wishlistrestapi.service.WishService;
+import com.example.wishlistrestapi.wish.model.AddWishRequest;
+import com.example.wishlistrestapi.wish.model.Wish;
+import com.example.wishlistrestapi.wish.service.WishService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

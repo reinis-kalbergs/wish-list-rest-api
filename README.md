@@ -68,15 +68,15 @@ wishlist.database-used=PostgreSQL
 As well as the following settings have to be configured to use the database of your choice:
 
 ```
-spring.datasource.username
+wishlist.datasource.username
 ```
 
 ```
-spring.datasource.password
+wishlist.datasource.password
 ```
 
 ```
-spring.datasource.url
+wishlist.datasource.url
 ```
 
 ## Running

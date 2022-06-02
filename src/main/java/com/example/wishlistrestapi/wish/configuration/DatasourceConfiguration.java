@@ -1,4 +1,4 @@
-package com.example.wishlistrestapi.configuration;
+package com.example.wishlistrestapi.wish.configuration;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -31,9 +31,9 @@ public class DatasourceConfiguration {
     public DataSource getPostgresSQLDatabaseDataSource() {
         return DataSourceBuilder.create()
                 .driverClassName("org.postgresql.Driver")
-                .url(environment.getProperty("spring.datasource.url"))
-                .username(environment.getProperty("spring.datasource.username"))
-                .password(environment.getProperty("spring.datasource.password"))
+                .url(environment.getProperty("wishlist.datasource.url"))
+                .username(environment.getProperty("wishlist.datasource.username"))
+                .password(environment.getProperty("wishlist.datasource.password"))
                 .build();
     }
 }

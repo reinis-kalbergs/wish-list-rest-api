@@ -1,8 +1,8 @@
-package com.example.wishlistrestapi.service;
+package com.example.wishlistrestapi.wish.service;
 
-import com.example.wishlistrestapi.model.AddWishRequest;
-import com.example.wishlistrestapi.model.Wish;
-import com.example.wishlistrestapi.repository.WishRepository;
+import com.example.wishlistrestapi.wish.model.AddWishRequest;
+import com.example.wishlistrestapi.wish.model.Wish;
+import com.example.wishlistrestapi.wish.repository.WishRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;

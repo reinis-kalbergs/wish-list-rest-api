@@ -1,4 +1,4 @@
-package com.example.wishlistrestapi.model;
+package com.example.wishlistrestapi.user.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.example.wishlistrestapi.controller;
+package com.example.wishlistrestapi.user.controller;
 
-import com.example.wishlistrestapi.model.User;
-import com.example.wishlistrestapi.model.UserList;
+import com.example.wishlistrestapi.user.model.User;
+import com.example.wishlistrestapi.user.model.UserList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

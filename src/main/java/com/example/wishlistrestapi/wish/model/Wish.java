@@ -1,4 +1,4 @@
-package com.example.wishlistrestapi.model;
+package com.example.wishlistrestapi.wish.model;
 
 import lombok.*;
 import org.hibernate.Hibernate;
